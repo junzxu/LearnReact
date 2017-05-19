@@ -1,0 +1,30 @@
+/*
+ * Typescript configuration file.
+ */
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "declaration": false,
+        "noResolve": false,
+        "jsx": "react",
+        "module": "commonjs",
+        "target": "es6",
+        "rootDir": "src",
+        "outDir": "dist",
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "types": ["node"]
+    },
+    "filesGlob": [
+        "**/*{ts,tsx}"
+    ],
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

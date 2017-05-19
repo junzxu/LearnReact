@@ -1,0 +1,79 @@
+/**
+* index.css
+* Author: Prasanna Narayanasamy
+* Copyright: Microsoft 2016
+*
+* CSS for index page.
+*/
+
+@font-face {
+    font-family: 'SkypeAssets-Light';
+    src: url('/assets/skype/SkypeAssets-Light.eot');
+    /* IE9 Compat Modes */
+    src: url('/assets/skype/SkypeAssets-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/assets/skype/SkypeAssets-Light.woff') format('woff'), /* Modern Browsers */
+    url('/assets/skype/SkypeAssets-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/assets/skype/SkypeAssets-Light.svg#SkypeAssets-Regular') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'SkypeAssets-Regular';
+    src: url('/assets/skype/SkypeAssets-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('/assets/skype/SkypeAssets-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/assets/skype/SkypeAssets-Regular.woff') format('woff'), /* Modern Browsers */
+    url('/assets/skype/SkypeAssets-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/assets/skype/SkypeAssets-Regular.svg#SkypeAssets-Regular') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Remove blue tap highlight on links */
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* For some Androids */
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+/**
+* Fix font smoothing. This makes Mac OS look way better.
+* http://www.intridea.com/blog/2014/5/8/better-font-smoothing-in-chrome-on-mac-os-x
+*/
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.symbol {
+    font-family: 'SkypeAssets-Light';
+    font-size: 24px;
+    color: #00aff0;
+}

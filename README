@@ -1,0 +1,5 @@
+Typescript + Babel + Webpack + React + Node.js
+
+How to run:
+    npm run build
+    npm start
